@@ -1,0 +1,85 @@
+body{
+    background-image: url("imgs/Assassins-Creed-1.jpg") ;
+background-repeat:no-repeat;background-size: 100%;background-attachment: fixed;
+display: grid;
+grid-template-columns: 15% 85%;}
+
+main p { text-align: center;
+    color: #000000;
+background-color: #f0ebebcb;
+font-family: Calibri;
+margin: auto;width:fit-content ;
+font-size: 25px;}
+
+main h1, h2 {
+    font-family: Calibri;
+    margin: auto;width: fit-content;
+    text-align: center;
+    color: #262626;
+    background-color: #D9D9D9;
+}
+header img {height: 10px;
+display: inline;}
+
+
+header h1{position: fixed;
+    color: #0D0D0D;
+    background-color: #a68072f1;
+    font-family: Calibri;
+    margin: auto;
+display: inline;}
+
+    a {position: left;
+        color: #0D0D0D;
+        background-color: #a68072f1;
+        font-family: Calibri;
+        margin: auto;
+        display: inline;
+        
+    }
+    header a {position: left;
+        color: #0D0D0D;
+        background-color: #a68072f1;
+        font-family: Calibri;
+        margin: auto;
+        
+    }
+        
+    
+    img { background-color: rgba(255, 255, 255, 0.603); 
+             display: block;
+            margin: auto;
+            object-fit: cover;
+            
+            
+        }
+        header img {display: block;
+            margin: auto;
+            object-fit: cover;
+        height: 50px;
+        display: inline;}
+        
+        ul { text-align: center;
+            color: #000000;
+        background-color: #f0ebebcb;
+        font-family: Calibri;
+        margin: auto;width:fit-content ;
+        font-size: 25px;}
+        img.banner {
+            display:inline
+        }
+
+          iframe {display: block;
+        margin: auto;}       
+        
+        footer h1 {position: left;
+            color: #0D0D0D;
+            background-color: #a68072f1;
+            font-family: Calibri;
+            margin: auto;
+             display: inline;
+    }
+    header {grid-column: span 2;}
+    footer{grid-column: span 2;}
+    nav {background-color:#a68072f1 ;
+    padding-top: 100px;}
